@@ -188,16 +188,17 @@ footer {
     margin-top: -60px;
 }
 
-footer > div {
+footer > a {
     flex-direction: row;
     margin: 8px;
     font-size: small;
     color: var(--or-font-color);
     font-family: var(--system-font);
     cursor: pointer;
+    text-decoration: none;
 }
 
-footer > div:hover {
+footer > a:hover {
     text-decoration: underline;
 }
 
@@ -211,7 +212,7 @@ footer > div:hover {
         display: none !important;
     }
 
-    footer>div {
+    footer > a {
         margin: 6px !important;
     }
     
